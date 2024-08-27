@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Equipes de F1</title>
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <div class="carrossel">
+            <img class="imagem ativa" src="./src/imagens/ferrari.png" alt="Sainz e Lecrerc Ferrari">
+            <img class="imagem" src="./src/imagens/mclaren.png" alt="McLaren">
+            <img class="imagem" src="./src/imagens/mercedes.png" alt="Russell e Hamilton Mercedes">
+            <img class="imagem" src="./src/imagens/verstappen.png" alt="Max Verstappen Red Bull">
+            <img class="imagem" src="./src/imagens/williams.png" alt="Alex Albon Williams">
+        </div>
+
+        <div class="conteudo">
+            <div class="informacoes ativa">
+                <div class="logo">
+                    <h1>Scuderia Ferrari</h1>
+                </div>
+                <p class="descricao">
+                    A Ferrari é a equipe mais icônica e bem-sucedida da Fórmula 1, fundada em 1929 por Enzo Ferrari. Eles entraram na Fórmula 1 em 1950, sendo a única equipe presente em todas as temporadas até hoje. Com mais de 240 vitórias, 16 títulos de construtores e 15 de pilotos, a Ferrari tem uma história rica, com lendas como <abbr title="Aii Schumacher">Michael Schumacher</abbr>, que conquistou cinco de seus sete títulos mundiais com a equipe.
+                </p>
+            </div>
+
+            <div class="informacoes">
+                <h1 id="orange">McLaren</h1>
+                <p class="descricao">
+                    Fundada em 1963 por Bruce McLaren, a equipe McLaren é uma das mais antigas e bem-sucedidas da Fórmula 1. Com 8 títulos de construtores e 12 de pilotos, a McLaren é conhecida por ter desenvolvido grandes talentos como Ayrton Senna, Alain Prost e Lewis Hamilton. Sua história é marcada por inovações tecnológicas e uma rivalidade intensa com a Ferrari.
+                </p>
+            </div>
+
+            <div class="informacoes">
+                <h1 id="green">Mercedes</h1>
+                <p class="descricao">
+                    A Mercedes-Benz tem uma longa história na Fórmula 1, inicialmente competindo na década de 1950, mas retornando como equipe de fábrica em 2010 após adquirir a Brawn GP. A partir de 2014, com o início da era dos motores híbridos, a Mercedes dominou a F1, conquistando oito títulos consecutivos de construtores (2014-2021) e sete de pilotos, principalmente com Lewis Hamilton, consolidando-se como uma das equipes mais dominantes da história da categoria.
+                </p>
+            </div>
+
+            <div class="informacoes">
+                <h1 id="purple">Red Bull</h1>
+                <p class="descricao">
+                    A Red Bull Racing entrou na Fórmula 1 em 2005 e rapidamente se tornou uma força dominante. Sob a liderança de Christian Horner e com Adrian Newey como projetista, a equipe conquistou quatro títulos consecutivos de construtores e pilotos de 2010 a 2013, com Sebastian Vettel. Após um período sem títulos, a Red Bull voltou ao topo em 2021 à 2023, com Max Verstappen conquistando o campeonato de pilotos, estabelecendo a equipe como uma das principais da era moderna.
+                </p>
+            </div>
+
+            <div class="informacoes">
+                <h1 id="blue">Williams</h1>
+                <p class="descricao">
+                    Fundada por Frank Williams em 1977, a Williams é uma das equipes mais históricas da Fórmula 1, com 9 títulos de construtores e 7 de pilotos. Nos anos 80 e 90, a Williams era sinônimo de excelência, com pilotos lendários como Nigel Mansell, Alain Prost e Ayrton Senna. Embora a equipe tenha enfrentado dificuldades nas últimas décadas, sua história permanece marcada pela inovação e sucesso, sendo uma das maiores da categoria.
+                </p>
+            </div>
+
+            <div class="botoes-carrossel">
+                <button class="botao selecionado"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+                <button class="botao"></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
